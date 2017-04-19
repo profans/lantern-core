@@ -13,12 +13,15 @@ export default {
       exclude: ['test/**/*', 'node_modules/**/*']
     })
   ],
+  globals: {
+    bottlejs: 'Bottle'
+  },
   external: external,
   targets: [
     {
       dest: pkg.main,
       format: 'umd',
-      moduleName: 'blueprint',
+      moduleName: 'lanternCore',
       sourceMap: true
     },
     {
