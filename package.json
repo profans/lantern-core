@@ -1,6 +1,6 @@
 {
   "name": "lantern-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A framework for building javascript single page applications.",
   "main": "dist/lantern-core.js",
   "module": "dist/lantern-core.mjs",
