@@ -5,7 +5,7 @@ module.exports = function (runner) {
   const collector = new instanbul.Collector()
   const reporter = new instanbul.Reporter()
   reporter.addAll(['lcov', 'json'])
-  const specReporter = new MochaSpecReporter(runner)
+  new MochaSpecReporter(runner)
 
   runner.on('end', function () {
     collector.add(global.__coverage__)
