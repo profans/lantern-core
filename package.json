@@ -33,7 +33,7 @@
   "homepage": "https://github.com/thebrubaker/lantern-core#readme",
   "dependencies": {
     "bottlejs": "^1.6.0",
-    "lantern-blueprint": "^1.0.1"
+    "lantern-blueprint": "^1.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
