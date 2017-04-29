@@ -1,14 +1,14 @@
-import { Lantern } from '../'
+import { App } from '../'
 import chai from 'chai'
 import sinon from 'sinon'
 
-describe('Lantern', () => {
+describe('App', () => {
   it('can be instantiated', () => {
-    let app = new Lantern()
-    chai.expect(app).to.be.instanceof(Lantern)
+    let app = new App()
+    chai.expect(app).to.be.instanceof(App)
   })
   it('can bind services to the dependency container', () => {
-    let app = new Lantern()
+    let app = new App()
     let spy = sinon.spy()
     app.bind('test', function (container) {
       return spy
