@@ -9,8 +9,8 @@ describe('AuthService', () => {
   })
 
   it('has static access to the laravel driver', () => {
-    chai.expect(Auth.LaravelDriver).to.exist
-    chai.expect(typeof Auth.LaravelDriver).to.equal('function')
-    chai.expect(Auth.LaravelDriver.name).to.equal('LaravelAuthDriver')
+    chai.expect(Auth.ApiDriver).to.exist
+    chai.expect(typeof Auth.ApiDriver).to.equal('function')
+    chai.expect(Auth.ApiDriver.name).to.equal('ApiAuthDriver')
   })
 })
